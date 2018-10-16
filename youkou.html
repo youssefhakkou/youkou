@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!--<meta http-equiv="refresh" content="1">-->
+    <link rel="stylesheet" type="text/css" href="youkou.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>YouKou</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <!--Navbar Start-->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left mr-auto">
+                    <li><a href="youkou.html">HOME</a></li>
+                    <li><a href="Articles.html">ARTICLES</a></li>
+                    <li><a href="WeightLoss.html">WEIGHTLOSS</a></li>
+                    <li><a href="Longevity.html">LONGEVITY</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right mr-auto" id="myList">
+
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+
+
+    <br><br>
+    <div class="text-center">
+        <h1>YouKou</h1>
+        <h4 id="biohacking">Where Biohacking becomes the norm</h4>
+        <button onclick="getBmi()">BMI calculator</button>
+        <h4 id='bmi'> </h4>
+        <h3 id='results'></h3>
+        <br><br>
+    </div>
+
+    <div class="text-center">
+        <img class="img-circle" src="pictures/wim.jpg" alt="wim" width="350" height="350">
+
+        <img class="img-circle" src="pictures/rhonda.jpg" alt="rhonda" width="350" height="350">
+
+        <img class="img-circle" src="pictures/tim.jpg" alt="tim" width="350" height="350">
+
+    </div>
+
+    <div id="info"> </div>
+
+
+    <script src="myWebsite.js"></script>
+    <script> sayGoodMorning()</script>
+</body>
+
+</html>

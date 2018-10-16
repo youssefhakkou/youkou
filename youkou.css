@@ -1,0 +1,18 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  background: url(pictures/cream.png) repeat 0 0;
+}
+.header1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.header2 {
+  text-align: center;
+}
+a.link {
+  font-size: 18px;
+  padding-left: 2em;
+  padding: 5px;
+  margin: 5px;
+}
