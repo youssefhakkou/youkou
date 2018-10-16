@@ -43,7 +43,7 @@ function getBmi() {
   var results = document.getElementById('results');
   results.textContent = yourResult;
 }
-
+/*
 var youA_beotch = (function(name, num) {
   for (i = 0; i < 10; i++) console.log(i + name + num);
 })('Bob', 48);
@@ -81,10 +81,11 @@ var today = new Date();
 console.log(today.toDateString());
 console.log(typeof 'Hello');
 
-// interviewer: what will the following code output?
-const arr = [10, 12, 15, 21];
-for (var i = 0; i < arr.length; i++) {
-  (function() {
-    console.log('Index: ' + i + ', element: ' + arr[i]);
-  });
+var elements = document.getElementById('biohacking');
+
+if (elements.length >= 1) {
+  var el = elements[0];
+  el.textContent('Hey Babes');
 }
+console.log('Hello');
+*/
