@@ -1,2 +1,2 @@
-# youkou
+# YouKou
 Biohacking made Simple!
