@@ -16,3 +16,7 @@ a.link {
   padding: 5px;
   margin: 5px;
 }
+
+.carousel-caption {
+  font-size: 18px;
+}
