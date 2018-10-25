@@ -195,3 +195,11 @@ $('li:lt(100)')
 $('a:lt(100)')
   .hide()
   .fadeIn(1000);
+
+$(function() {
+  $('li:contains("pine")').text('almonds');
+  $('li.hot').html(function() {
+    return '<b>' + $(this).text() + '</b>';
+  });
+  $('li#one').remove();
+});
